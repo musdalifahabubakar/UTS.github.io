@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Belajar Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+  </head>
+  <body>
+    <div class="bg-dark p-2 text-dark bg-opacity-100">
+      <!-- navbar -->
+      <br />
+      <br />
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-white shadow-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand text-warning" href="#"><b>SHARELOC</b></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="index.html"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="menu.html"> <b>Menu</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active text-warning" href="order.html"><b>Order</b> </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="gallery.html"><b> Gallery</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html"><b> Contact</b></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- Akhir navbar -->
+
+      <!-- isi -->
+      <div class="container">
+        <div class="row">
+          <div class="col text-warning">
+            <hr />
+            <h2 align="center ">ORDER</h2>
+            <hr />
+          </div>
+        </div>
+      </div>
+      <!-- akhir isi -->
+
+      <!-- TABEL -->
+      <form class="row mb-3 justify-content-center">
+        <div class="row mb-3 justify-content-center">
+          <label for="inputNama3" class="col-sm-2 col-form-label text-white"><b>Your Name</b></label>
+          <div class="col-sm-5">
+            <input type="nama" class="form-control" id="inputNama" />
+          </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+          <label for="inputPilihan3" class="col-sm-2 col-form-label text-white"><b>Menu Drink</b></label>
+          <div class="col-sm-5">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select</option>
+              <option value="tea">Hot Tea</option>
+              <option value="1">Ice Tea</option>
+              <option value="2">Hot Lemontea</option>
+              <option value="3">Ice Lemontea</option>
+              <option value="4">Hot Milktea</option>
+              <option value="5">Ice Milktea</option>
+              <option value="7">Ice Greentea</option>
+              <option value="8">Hot Thaitea</option>
+              <option value="9">Ice Thaitea</option>
+              <option value="10">Brown Sugar</option>
+              <option value="11">Hot Americano</option>
+              <option value="12">Ice Americano</option>
+              <option value="13">Hot Cappucino</option>
+              <option value="14">Ice Cappucino</option>
+              <option value="15">Hot Moccacino</option>
+              <option value="16">Ice Moccacino</option>
+              <option value="17">Hot Kopi Susu Aren</option>
+              <option value="18">Ice Kopi Susu Aren</option>
+              <option value="19">Caramel Latte</option>
+              <option value="20">vanilla Latte</option>
+              <option value="milkshake">Milkshake</option>
+              <option value="Oreo">Oreo</option>
+              <option value="coklat">Coklat</option>
+              <option value="taro">Taro</option>
+              <option value="bubblegum">Bubblegum</option>
+              <option value="vanilla">Vanilla</option>
+              <option value="coffe">Coffe</option>
+              <option value="kopi hitam">Kopi Hitam</option>
+              <option value="kopi susu">Hot Kopi Susu</option>
+              <option value="kopi susu">Ice Kopi Susu</option>
+              <option value="vietnam drip">Vietnam Drip</option>
+              <option value="avocado">avocado</option>
+              <option value="dragon fruit">Dragon Fruit</option>
+              <option value="orang juice">Orange Juice</option>
+              <option value="kopi susu">Hot Kopi Susu</option>
+              <option value="kopi susu">Ice Kopi Susu</option>
+              <option value="vietnam drip">Vietnam Drip</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+          <label for="inputAlamat3" class="col-sm-2 col-form-label text-white"><b>How Many Order</b></label>
+          <div class="col-sm-5">
+            <input type="alamat" class="form-control" id="inputAlamat3" />
+          </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+          <label for="inputPilihan3" class="col-sm-2 col-form-label text-white"><b>Menu Food</b></label>
+          <div class="col-sm-5">
+            <select class="form-select" aria-label="Default select example">
+              <option selected>Open this select</option>
+              <option value="burger">Burger</option>
+              <option value="chiken wings">Chiken Wings</option>
+              <option value="french fries">French Fries</option>
+              <option value="snack mix">Snack Mix</option>
+              <option value="sandwich">Sandwich</option>
+              <option value="pisang goreng original">Pisang Goreng Original</option>
+              <option value="pisang goreng coklat">Pisang Goreng Coklat</option>
+              <option value="pisang goreng keju">Pisang Goreng Keju</option>
+              <option value="pisang goreng spesial">Pisang Goreng Spesial</option>
+              <option value="roti bakar coklat">Roti Bakar Coklat</option>
+              <option value="roti bakar keju">roti Bakar Keju</option>
+              <option value="roti bakar coklat keju">Roti Bakar Coklat Keju</option>
+              <option value="roti bakar kaya">Roti Bakar Kaya</option>
+              <option value="roti bakar telur">Roti Bakar Telur</option>
+              <option value="nasi ayam lalapan">Nasi Ayam Lalapan</option>
+              <option value="nasi ayam geprek">Nasi Ayam Geprek</option>
+              <option value="nasi ikan fillet">Nasi Ikan Fillet</option>
+              <option value="nasi sarden telur">Nasi Sarden Telur</option>
+              <option value="nasi goreng spesial">Nasi Goreng Spesial</option>
+              <option value="nasi goreng jakarta">Nasi Goreng jakarta</option>
+              <option value="nasi goreng merah">Nasi Goreng Merah</option>
+              <option value="nasi goreng seafood">Nasi Goreng Seafood</option>
+              <option value="nasi goreng ikan asin">Nasi Goreng Ikan Asin</option>
+              <option value="mie kering">Mie Kering</option>
+              <option value="mie kuah">Mie Kuah</option>
+              <option value="mie goreng">Mie Goreng</option>
+              <option value="indomie kuah">Indomie Kuah</option>
+              <option value="indomie goreng">Indomie Goreng</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+          <label for="inputPesan3" class="col-sm-2 col-form-label text-white"><b>Comments</b></label>
+          <div class="col-sm-5">
+            <div class="form-floating">
+              <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+              <label for="floatingTextarea2">Comments</label>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mb-3 justify-content-center">
+          <div class="col-sm-1">
+            <button type="submit" class="btn btn-warning center text-white"><b>Kirim</b></button>
+          </div>
+        </div>
+      </form>
+      <!-- AKHIR TABEL -->
+      <div class="container">
+        <h3 class="text-warning">Note: Self pick-up!!!</h3>
+      </div>
+
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
+        <path
+          fill="#ffd700"
+          fill-opacity="1"
+          d="M0,32L48,32C96,32,192,32,288,74.7C384,117,480,203,576,202.7C672,203,768,117,864,85.3C960,53,1056,75,1152,69.3C1248,64,1344,32,1392,16L1440,0L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
+        ></path>
+      </svg>
+    </div>
+    <!-- footer -->
+    <div class="row">
+      <div class="col-12 bg-warning p-2 text-white bg-opacity-100 text-center p-1">Hak Cipta &copy; Projek</div>
+    </div>
+    <!-- akhir footer -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
